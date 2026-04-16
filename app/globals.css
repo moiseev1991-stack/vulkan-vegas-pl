@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #07000C;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background:
+    radial-gradient(ellipse 120% 55% at 50% 0%, #160010 0%, #0A000B 45%, #050008 100%);
+  font-family: 'DM Sans', sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ── Game card: pulsing red glow ────────────────────────── */
+@keyframes slot-glow-pulse {
+  0%, 100% { box-shadow: 0 2px 14px rgba(140,0,0,0.14); }
+  50%       { box-shadow: 0 4px 32px rgba(210,0,0,0.55), 0 0 18px rgba(255,50,0,0.22); }
+}
+
+/* ── Game card: diagonal shine sweep ───────────────────── */
+@keyframes slot-shine-sweep {
+  0%, 5%    { transform: skewX(-12deg) translateX(-130%); }
+  20%, 100% { transform: skewX(-12deg) translateX(230%); }
+}
+
+.slot-card-glow {
+  animation: slot-glow-pulse 4.2s ease-in-out infinite;
+}
+
+.slot-card-shine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  pointer-events: none;
+  z-index: 5;
+  background: linear-gradient(to right, transparent 0%, rgba(255,255,255,0.07) 50%, transparent 100%);
+  animation: slot-shine-sweep 6.5s ease-in-out infinite;
+}
+
+/* ── Hexagon clip-path utility ──────────────────────────── */
+.diamond-clip {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+/* ── Wheel of fortune: laser background pulse ──────────── */
+@keyframes spin-pulse {
+  0%, 100% { opacity: 0.07; }
+  50%       { opacity: 0.16; }
+}
+
+.spin-laser {
+  animation: spin-pulse 5.5s ease-in-out infinite;
+}
