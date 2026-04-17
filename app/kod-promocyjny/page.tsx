@@ -48,9 +48,9 @@ export default function KodPromocyjnyPage() {
           >
             🏷️ PROMO KOD
           </span>
-          <h1 className="text-3xl font-black text-white mb-3">
+          <h2 className="text-3xl font-black text-white mb-3">
             <span style={{ color: '#FFC500' }}>Kod Promocyjny</span> Vulkan Vegas PL 2026 bez depozytu
-          </h1>
+          </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
             Aktualny kod promocyjny Vulkan Vegas 2026 — jak aktywować, jakie warunki obrotu
             i co dostaniesz. Sprawdzone kody dla polskich graczy.
@@ -123,7 +123,7 @@ export default function KodPromocyjnyPage() {
 
         <article className="space-y-6 text-sm leading-relaxed text-gray-400">
 
-          <h2 className="text-xl font-black text-white mb-3">Vulkan Vegas promocje kasynowe — kody i bonusy 2026</h2>
+          <h1 className="text-xl font-black text-white mb-3">Vulkan Vegas promocje kasynowe — kody i bonusy 2026</h1>
           <p>
             Przewodnik po promocjach Vulkan Vegas dla graczy z Polski w 2026 roku. Zebraliśmy aktualne kody, darmowe spiny i bonusy (w tym za aplikację) oraz wyjaśniamy zasady ich aktywacji i obrotu. 18+. Graj odpowiedzialnie.
           </p>

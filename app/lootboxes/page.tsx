@@ -48,7 +48,7 @@ export default function LootboxesPage() {
           className="relative z-10 px-16 py-10 w-full"
           style={{ maxWidth: '1280px', margin: '0 auto' }}
         >
-          <h1 className="text-4xl font-black text-white mb-2">Lootboxy</h1>
+          <h2 className="text-4xl font-black text-white mb-2">Lootboxy</h2>
           <p className="text-gray-300 text-sm mb-1">Odkryj niesamowite nagrody</p>
           <p className="text-gray-400 text-sm">
             Co jest w środku? Tylko jeden sposób, aby się przekonać — otwórz i ciesz się!
@@ -246,7 +246,7 @@ export default function LootboxesPage() {
       <div className="h-px bg-[#160010] mb-12" />
       <section className="container mx-auto px-4 py-12 max-w-4xl">
 
-        <h2 className="text-xl font-black text-white mb-3">Lootboxy Vulkan Vegas: zasady, limity i nagrody 2026</h2>
+        <h1 className="text-xl font-black text-white mb-3">Lootboxy Vulkan Vegas: zasady, limity i nagrody 2026</h1>
         <p className="text-gray-500 text-sm leading-relaxed mb-6">
           Kompletny przewodnik po lootboxach Vulkan Vegas dla graczy z Polski. Poznasz zasady, limity, rodzaje nagród i sposoby bezpiecznej gry, aby świadomie oceniać wartość skrzynek i unikać błędów.
         </p>

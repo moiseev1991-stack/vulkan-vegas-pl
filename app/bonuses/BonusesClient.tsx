@@ -95,7 +95,7 @@ export default function BonusesClient() {
             >
               🎁 BONUSY
             </span>
-            <h1 className="text-4xl font-black text-white mb-3">Bonusy kasynowe</h1>
+            <h2 className="text-4xl font-black text-white mb-3">Bonusy kasynowe</h2>
             <p className="text-white/60 text-sm mb-6 max-w-md">
               Odbierz ekskluzywne bonusy i zwiększ swoje szanse na wygraną. Nowe oferty każdego tygodnia!
             </p>
@@ -191,7 +191,7 @@ export default function BonusesClient() {
       <div className="h-px bg-[#160010] mb-12" />
       <section className="container mx-auto px-4 py-12 max-w-4xl">
         <div className="space-y-4">
-          <h2 className="text-xl font-black text-white mb-3">Jak działają bonusy Vulkan Vegas w 2026?</h2>
+          <h1 className="text-xl font-black text-white mb-3">Jak działają bonusy Vulkan Vegas w 2026?</h1>
           <p className="text-gray-500 text-sm leading-relaxed mb-3">Bonusy są mechanizmem promocyjnym podlegającym regulaminowi: warunki obrotu (WR), limity stawek, listy wykluczonych gier, terminy ważności, weryfikacja KYC. W Polsce gry kasynowe online mogą oferować wyłącznie podmioty z krajową licencją; zawsze sprawdzaj status prawny i aktualny regulamin promocji.</p>
           <h3 className="text-lg font-black text-white mb-2">Typy bonusów: powitalny, cashback, reload</h3>
           <p className="text-gray-500 text-sm leading-relaxed mb-3"><strong className="text-white">Bonus powitalny</strong> — jednorazowy pakiet dla nowych graczy, zwykle dopasowanie pierwszego depozytu (100% lub 200%) z opcjonalnymi darmowymi spinami. <strong className="text-white">Cashback</strong> — zwrot części netto strat w określonym okresie, z WR lub bez. <strong className="text-white">Reload</strong> — powtarzalny bonus dopasowania depozytu dla istniejących graczy z własnym WR i oknem czasowym.</p>

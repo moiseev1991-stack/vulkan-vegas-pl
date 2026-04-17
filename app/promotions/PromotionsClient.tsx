@@ -100,7 +100,7 @@ export default function PromotionsClient() {
 
       {/* ── Page header ── */}
       <div className="pt-8 pb-2 mb-2">
-        <h1 className="text-2xl font-black text-white">Promocje</h1>
+        <h2 className="text-2xl font-black text-white">Promocje</h2>
         <p className="text-sm text-gray-600">Aktualne bonusy i oferty kasyna Vulkan Vegas</p>
       </div>
 
@@ -383,7 +383,7 @@ export default function PromotionsClient() {
       <div className="h-px bg-[#160010] mb-12" />
       <section className="container mx-auto px-4 py-12 max-w-4xl">
         <div className="space-y-4">
-          <h2 className="text-xl font-black text-white mb-3">Jak odebrać promocje Vulkan Vegas 2026 krok po kroku?</h2>
+          <h1 className="text-xl font-black text-white mb-3">Jak odebrać promocje Vulkan Vegas 2026 krok po kroku?</h1>
           <p className="text-gray-500 text-sm leading-relaxed mb-3">Promocje kasynowe działają tylko gdy są poprawnie aktywowane i spełnione ich warunki. Poniżej praktyczne instrukcje dotyczące kodów, weryfikacji (KYC) oraz czytania regulaminów (obrót, maksymalna wypłata, ograniczenia gier).</p>
           <h3 className="text-lg font-black text-white mb-2">Gdzie wpisać kod promocyjny przy rejestracji?</h3>
           <ul className="list-disc list-inside text-gray-500 text-sm space-y-1 mb-3">

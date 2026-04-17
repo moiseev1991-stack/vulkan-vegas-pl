@@ -68,7 +68,7 @@ export default function VipHero() {
         <p className="text-xs text-gray-500 uppercase tracking-[0.3em] mb-3">
           WITAJ W
         </p>
-        <h1
+        <h2
           className="font-black mb-4"
           style={{
             fontSize: 'clamp(56px, 8vw, 96px)',
@@ -82,7 +82,7 @@ export default function VipHero() {
           }}
         >
           VIP CLUB
-        </h1>
+        </h2>
         <p className="text-gray-400 text-sm mb-8 max-w-md mx-auto">
           Odblokuj ekskluzywne nagrody, wyższe limity i przywileje
           dla najbardziej cenionych klientów!

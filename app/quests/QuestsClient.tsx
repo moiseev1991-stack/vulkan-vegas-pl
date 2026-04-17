@@ -58,7 +58,7 @@ export default function QuestsClient() {
               </span>
             </div>
 
-            <h1 className="text-4xl font-black text-white mb-3">Strefa Questów</h1>
+            <h2 className="text-4xl font-black text-white mb-3">Strefa Questów</h2>
             <p className="text-gray-400 text-sm mb-5">
               Wykonuj zadania, aby odblokować bonusy. Im więcej questów ukończysz,
               tym większe nagrody otrzymasz!
@@ -276,7 +276,7 @@ export default function QuestsClient() {
       <div className="h-px bg-[#160010] mb-12" />
       <section className="container mx-auto px-4 py-12 max-w-4xl">
         <div className="space-y-4">
-          <h2 className="text-xl font-black text-white mb-3">Jak działają misje i questy w Vulkan Vegas?</h2>
+          <h1 className="text-xl font-black text-white mb-3">Jak działają misje i questy w Vulkan Vegas?</h1>
           <p className="text-gray-500 text-sm leading-relaxed mb-3">Misje i questy to czasowo ograniczone wyzwania powiązane z konkretnymi grami lub kategoriami gier. Mechanika polega na aktywacji zadania, grze w kwalifikujące się tytuły i realizacji celów (np. liczby rund, obrotu) w określonym czasie, po czym nagroda trafia do portfela bonusowego lub jako darmowe spiny. W Polsce gry kasynowe online mogą oferować wyłącznie podmioty z zezwoleniem Ministra Finansów.</p>
           <h3 className="text-lg font-black text-white mb-2">Nagrody i poziomy: co można zdobyć?</h3>
           <p className="text-gray-500 text-sm leading-relaxed mb-3">Misje nagradzają: darmowe spiny (free spins) na konkretny automat z limitem stawki i terminem ważności, środki bonusowe po spełnieniu warunku obrotu, cashback (zwrot strat netto), punkty lojalnościowe/XP do programu VIP oraz bilety do turniejów.</p>
