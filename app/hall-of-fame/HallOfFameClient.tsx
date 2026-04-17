@@ -412,7 +412,7 @@ export default function HallOfFameClient() {
       <div className="h-px bg-[#160010] mb-12" />
       <section className="container mx-auto px-4 py-12 max-w-4xl">
         <div className="space-y-4">
-          <h1 className="text-xl font-black text-white mb-3">Vulkan Vegas: największe wygrane — przewodnik 2026</h1>
+          <h2 className="text-xl font-black text-white mb-3">Vulkan Vegas: największe wygrane — przewodnik 2026</h2>
           <p className="text-gray-500 text-sm leading-relaxed mb-3">Szukasz informacji o największych wygranych w Vulkan Vegas? Pokażemy, gdzie je sprawdzać, co naprawdę wpływa na wysokie trafienia oraz jak bezpiecznie odebrać środki w Polsce. Gry hazardowe niosą ryzyko — graj odpowiedzialnie, tylko 18+.</p>
 
           <h2 className="text-xl font-black text-white mb-3">Jakie są największe wygrane i gdzie je sprawdzić?</h2>

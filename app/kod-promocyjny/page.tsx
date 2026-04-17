@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Vulkan Vegas Kod Promocyjny PL 2026 bez depozytu i free spiny',
+  title: { absolute: 'Vulkan Vegas Kod Promocyjny PL 2026 bez depozytu i free spiny' },
   description: 'Aktywny kod promocyjny Vulkan Vegas PL 2026 — bonus bez depozytu, free spiny i oferty powitalne. Jak aktywować, warunki obrotu i instrukcja dla graczy z Polski.',
   openGraph: {
     title: 'Vulkan Vegas Kod Promocyjny PL 2026 bez depozytu i free spiny',
@@ -123,7 +123,7 @@ export default function KodPromocyjnyPage() {
 
         <article className="space-y-6 text-sm leading-relaxed text-gray-400">
 
-          <h1 className="text-xl font-black text-white mb-3">Vulkan Vegas promocje kasynowe — kody i bonusy 2026</h1>
+          <h2 className="text-xl font-black text-white mb-3">Vulkan Vegas promocje kasynowe — kody i bonusy 2026</h2>
           <p>
             Przewodnik po promocjach Vulkan Vegas dla graczy z Polski w 2026 roku. Zebraliśmy aktualne kody, darmowe spiny i bonusy (w tym za aplikację) oraz wyjaśniamy zasady ich aktywacji i obrotu. 18+. Graj odpowiedzialnie.
           </p>

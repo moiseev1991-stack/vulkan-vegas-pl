@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { lootboxes } from '@/data/lootboxes'
 
 export const metadata: Metadata = {
-  title: 'Vulkan Vegas Lootboxy PL — Skrzynki z Nagrodami Casino 2026',
+  title: { absolute: 'Vulkan Vegas Lootboxy PL — Skrzynki z Nagrodami Casino 2026' },
   description: 'Lootboxy kasynowe Vulkan Vegas PL 2026 — kupuj skrzynki i wygrywaj free spiny, bonusy i nagrody pieniężne. Zasady, limity zakupu i warunki odbioru nagród w kasynie.',
   openGraph: {
     title: 'Vulkan Vegas Lootboxy PL — Skrzynki z Nagrodami Casino 2026',
@@ -246,7 +246,7 @@ export default function LootboxesPage() {
       <div className="h-px bg-[#160010] mb-12" />
       <section className="container mx-auto px-4 py-12 max-w-4xl">
 
-        <h1 className="text-xl font-black text-white mb-3">Lootboxy Vulkan Vegas: zasady, limity i nagrody 2026</h1>
+        <h2 className="text-xl font-black text-white mb-3">Lootboxy Vulkan Vegas: zasady, limity i nagrody 2026</h2>
         <p className="text-gray-500 text-sm leading-relaxed mb-6">
           Kompletny przewodnik po lootboxach Vulkan Vegas dla graczy z Polski. Poznasz zasady, limity, rodzaje nagród i sposoby bezpiecznej gry, aby świadomie oceniać wartość skrzynek i unikać błędów.
         </p>

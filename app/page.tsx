@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import HomeClient from './HomeClient'
 
 export const metadata: Metadata = {
-  title: 'Vulkan Vegas PL Oficjalne Kasyno Online Casino Vulkanspiele',
+  title: { absolute: 'Vulkan Vegas PL Oficjalne Kasyno Online Casino Vulkanvegas' },
   description: 'Vulkan Vegas PL oficjalne kasyno online. Opinie i recenzje graczy, aktualne bonusy, automaty i gry na żywo. Zagraj na oficjalnym portalu vulkan-vegas w Polsce.',
   openGraph: {
     title: 'Vulkan Vegas PL Oficjalne Kasyno Online Casino Vulkanspiele',

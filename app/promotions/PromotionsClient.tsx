@@ -98,6 +98,12 @@ export default function PromotionsClient() {
   return (
     <div className="container mx-auto px-4">
 
+      {/* ── Page header ── */}
+      <div className="pt-8 pb-2 mb-2">
+        <h1 className="text-2xl font-black text-white">Promocje</h1>
+        <p className="text-sm text-gray-600">Aktualne bonusy i oferty kasyna Vulkan Vegas</p>
+      </div>
+
       {/* ── Featured Welcome Banner — always visible above tabs ── */}
       <div
         className="relative rounded-2xl overflow-hidden mb-6 mt-4"

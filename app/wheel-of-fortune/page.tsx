@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import WheelClient from './WheelClient'
 
 export const metadata: Metadata = {
-  title: 'Vulkan Vegas Koło Fortuny PL — Free Spiny Bez Depozytu 2026',
+  title: { absolute: 'Vulkan Vegas Koło Fortuny PL — Free Spiny Bez Depozytu 2026' },
   description: 'Koło Fortuny Vulkan Vegas PL 2026 — kręć codziennie i odbieraj darmowe spiny bez depozytu. Jak aktywować koło fortuny, kody i szczegółowe warunki bonusu dla graczy PL.',
   openGraph: {
     title: 'Vulkan Vegas Koło Fortuny PL — Free Spiny Bez Depozytu 2026',

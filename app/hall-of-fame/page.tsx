@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import HallOfFameClient from './HallOfFameClient'
 
 export const metadata: Metadata = {
-  title: 'Hala Sławy Vulkan Vegas PL — Największe Wygrane Graczy 2026',
+  title: { absolute: 'Hala Sławy Vulkan Vegas PL — Największe Wygrane Graczy 2026' },
   description: 'Hala sławy Vulkan Vegas PL — największe wygrane polskich graczy, zweryfikowane wypłaty i historia triumfów. Zobacz rekordy kasyna vulkan-vegas-pl.com.pl 2026.',
   openGraph: {
     title: 'Hala Sławy Vulkan Vegas PL — Największe Wygrane Graczy 2026',

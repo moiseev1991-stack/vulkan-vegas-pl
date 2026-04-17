@@ -4,7 +4,7 @@ import { games } from '@/data/games'
 import TournamentCard from '@/components/tournaments/TournamentCard'
 
 export const metadata: Metadata = {
-  title: 'Vulkan Vegas Turnieje PL — Pule Nagród i Ranking Graczy 2026',
+  title: { absolute: 'Vulkan Vegas Turnieje PL — Pule Nagród i Ranking Graczy 2026' },
   description: 'Turnieje online Vulkan Vegas PL 2026 — aktywne i nadchodzące turnieje kasynowe, pule nagród i warunki uczestnictwa. Sprawdź ranking graczy i strategie wygrywania.',
   openGraph: {
     title: 'Vulkan Vegas Turnieje PL — Pule Nagród i Ranking Graczy 2026',
@@ -87,7 +87,7 @@ export default function TournamentsPage() {
       <div className="h-px bg-[#160010] mb-12" />
       <section className="container mx-auto px-4 py-12 max-w-4xl">
         <div className="space-y-4">
-          <h1 className="text-xl font-black text-white mb-3">Turnieje Kasynowe Online Vulkan Vegas – Oficjalny Przewodnik 2026</h1>
+          <h2 className="text-xl font-black text-white mb-3">Turnieje Kasynowe Online Vulkan Vegas – Oficjalny Przewodnik 2026</h2>
           <p className="text-gray-500 text-sm leading-relaxed mb-3">Turnieje kasynowe w Vulkan Vegas to dynamiczna forma rywalizacji, która łączy emocje z możliwością wygrania znaczących nagród pieniężnych. W tym kompleksowym przewodniku odkryjesz mechanizmy turniejów slotowych, strategie zwiększające szanse na podium oraz odpowiedzi na kluczowe pytania dotyczące legalności i warunków uczestnictwa w polskim kontekście prawnym.</p>
           <h2 className="text-xl font-black text-white mb-3">Czym są turnieje kasynowe Vulkan Vegas i jak działają?</h2>
           <p className="text-gray-500 text-sm leading-relaxed mb-3">Turnieje kasynowe to zorganizowane formy rywalizacji, w których gracze konkurują ze sobą na wybranych automatach slotowych w określonym czasie, rywalizując o miejsce na tablicy wyników i udział w puli nagród. W przeciwieństwie do standardowej gry na automatach, gdzie gracz rywalizuje z matematyką gry przeciwko kasynie, turnieje wprowadzają element bezpośredniej konkurencji z innymi uczestnikami. Każdy gracz rozpoczyna z identycznym saldem turniejowym i w wyznaczonym limicie czasowym lub liczby spinów stara się zgromadzić maksymalną liczbę punktów, które określają jego pozycję w rankingu.</p>

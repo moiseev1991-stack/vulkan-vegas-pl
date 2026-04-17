@@ -249,9 +249,9 @@ export default function WheelClient() {
       <div className="relative z-10 flex flex-col items-center py-12 select-none">
 
         {/* Title */}
-        <h1 className="text-white font-black text-3xl mb-1 tracking-wide uppercase">
+        <h2 className="text-white font-black text-3xl mb-1 tracking-wide uppercase">
           Koło <span style={{ color: '#FFC500' }}>Fortuny</span>
-        </h1>
+        </h2>
         <p className="text-white/40 text-sm mb-8">
           Pozostałe obroty dzisiaj:{' '}
           <span className="font-bold" style={{ color: spinsLeft > 0 ? '#FFC500' : '#666' }}>

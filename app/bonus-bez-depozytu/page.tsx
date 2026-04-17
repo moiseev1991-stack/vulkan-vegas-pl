@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Vulkan Vegas bonus bez depozytu 2026 Kod Promocyjny PL',
+  title: { absolute: 'Vulkan Vegas bonus bez depozytu 2026 Kod Promocyjny PL' },
   description: 'Vulkan Vegas bonus bez depozytu 2026 — free spiny i kod promocyjny dla nowych graczy. Warunki obrotu, aktywacja, logowanie i wypłata wygranych w Polsce.',
   openGraph: {
     title: 'Vulkan Vegas bonus bez depozytu 2026 Kod Promocyjny PL',

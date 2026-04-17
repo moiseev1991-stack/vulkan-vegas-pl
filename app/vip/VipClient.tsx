@@ -236,7 +236,7 @@ export default function VipClient() {
       <div className="h-px bg-[#160010] mb-12" />
       <section className="container mx-auto px-4 py-12 max-w-4xl">
         <div className="space-y-4">
-          <h1 className="text-xl font-black text-white mb-3">Program VIP Vulkan Vegas – Ekskluzywne Korzyści i Bonusy 2026</h1>
+          <h2 className="text-xl font-black text-white mb-3">Program VIP Vulkan Vegas – Ekskluzywne Korzyści i Bonusy 2026</h2>
           <p className="text-gray-500 text-sm leading-relaxed mb-3">Program lojalnościowy Vulkan Vegas to system nagród dla aktywnych graczy, oferujący specjalne bonusy, cashback, dedykowanego managera oraz dostęp do ekskluzywnych turniejów. Dowiedz się, jak awansować przez poziomy VIP i maksymalizować korzyści z regularnej gry w kasynie online.</p>
           <h2 className="text-xl font-black text-white mb-3">Czym jest Program VIP w Vulkan Vegas Kasyno?</h2>
           <p className="text-gray-500 text-sm leading-relaxed mb-3">Program VIP w kasynie Vulkan Vegas to zaawansowany system lojalnościowy, zaprojektowany z myślą o nagradzaniu najbardziej aktywnych i zaangażowanych graczy. W przeciwieństwie do jednorazowych bonusów powitalnych, program lojalnościowy funkcjonuje przez cały okres korzystania z platformy, umożliwiając systematyczne zbieranie punktów, awansowanie przez kolejne poziomy oraz odblokowywanie coraz bardziej ekskluzywnych nagród. Mechanizm ten stanowi ewolucję tradycyjnych systemów bonusowych, stawiając na długoterminową relację między kasynem a graczem, co w praktyce oznacza znacznie korzystniejsze warunki gry dla osób regularnie korzystających z platformy.</p>
